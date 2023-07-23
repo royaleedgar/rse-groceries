@@ -1,0 +1,82 @@
+head
+{
+margin: 0;
+padding: 0;
+}
+.nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items:center;
+    position:fixed;
+
+}
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: azure;
+    text-decoration: none;
+    font-size: 12px;
+
+}
+.nav-links ul li ::after{
+    content: '';
+    width: 0%;
+    height:2px;
+    background: #bbbbbb;
+    display: block;
+    margin:auto;
+
+}
+.nav-links ul li :hover::after{
+    width:100%
+}
+body
+{
+background-image: url("./images/scott-warman-NpNvI4ilT4A-unsplash.jpg");
+background-color: rgb(136, 136, 136,0.25);
+background-position:inherit;
+background-size:cover;
+background-repeat:no-repeat;
+position:relative;
+font-family: 'Poppins' ,sans-serif;
+color: aliceblue;
+}
+.goods-col{
+    flex-basis:31%;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    text-align:left;
+    cursor: pointer;
+}
+.goods-col img{
+width:100px;
+height:100px;
+border-radius: 10px;
+
+}
+.goods-col h3{
+margin-top:16px;
+margin-bottom:13px;
+text-align: left;
+color:white;
+}
+.goods-col h3:hover{
+    color: gold;
+}
+
+.goods-col p{
+padding: 0;
+color: aliceblue;
+}
+.goods-col p:hover{
+color: gold;
+}
