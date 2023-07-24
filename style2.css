@@ -43,7 +43,7 @@ body
 {
 background-image: url("./images/scott-warman-NpNvI4ilT4A-unsplash.jpg");
 background-color: rgb(136, 136, 136,0.25);
-background-position:inherit;
+background-position:unset;
 background-size:cover;
 background-repeat:no-repeat;
 position:relative;
@@ -56,6 +56,8 @@ color: aliceblue;
     margin-bottom: 5%;
     text-align:left;
     cursor: pointer;
+    background-color: rgb(136, 136, 136,0.25);
+    padding: 10px; ;
 }
 .goods-col img{
 width:100px;
@@ -79,4 +81,13 @@ color: aliceblue;
 }
 .goods-col p:hover{
 color: gold;
+}
+@media(max-width: 700px){
+    .text-box h1{
+        font-size:20px;
+    }
+    .nav-links{
+        position:absolute;
+
+    }
 }

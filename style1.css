@@ -19,6 +19,7 @@
     justify-content: space-between;
     align-items:center;
     position:fixed;
+    
 
 }
 .nav-links {
@@ -68,10 +69,10 @@
     color:#fff;
 }
 .text-box2{
-    background:rgba(151, 151, 151, 0.25);
+    background:rgba(151, 151, 151, 0.486);
     height:auto;
     width:90%;
-    color:#ffffff;
+    color:#000000;
     position:absolute;
     top:80%;
     left:50%;
@@ -79,6 +80,7 @@
     text-align:center
 }
 .text-box2:hover{
+    background-color:rgba(0, 0, 0, 0.486) ;
     color: gold;
     transition: 0.25s;
     cursor:pointer
@@ -87,7 +89,7 @@
 .order-btn{
     display:inline-block;
     text-decoration:none;
-    color: #ffffff;
+    color:rgb(0, 0, 0);
     padding: 5px 60px;
     font-size:20px;
     background:rgba(151, 151, 151, 0.25);
@@ -95,8 +97,9 @@
     cursor:pointer;
 }
 .order-btn:hover{
-    background:rgba(151, 151, 151, 1.0);
+    background:rgba(0, 0, 0, 0.486);
     transition: 0.25s;
+    color: gold;
 }
 @media(max-width: 700px){
     .text-box h1{
@@ -128,6 +131,6 @@
 
 .square:hover{
         cursor: pointer;
-        background:rgba(170, 170, 170, 0.5);
+        background:rgba(0, 0, 0, 0.486);
         transition: 0.25s;
         }
