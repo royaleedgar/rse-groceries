@@ -132,22 +132,6 @@
         margin-right: 10px;
         }
 
-.square p{
-color: white;
-padding-right: 30%;
-align-items: right;
-text-decoration: none;
-background: transparent;
-margin-right: -700px;
-
-}
-
-.square img{
-width:150px;
-height:150px;
-border-radius: 10px;
-}
-
 .square:hover{
         cursor: pointer;
         background:rgba(0, 0, 0, 0.486);
