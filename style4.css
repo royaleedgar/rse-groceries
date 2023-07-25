@@ -148,3 +148,19 @@ outline: none ;
     color:darkgrey;
     transition:0.04s;
 }
+
+@media (max-width: 700px) {
+    .text-box h1 {
+        font-size: 20px; /* Font size for smaller screens */
+    }
+    .nav-links {
+        position: absolute; /* Position to absolute for smaller screens */
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #f9f9f9;
+        padding: 10px;
+        box-sizing: border-box;
+        display: none;
+    }
+}
