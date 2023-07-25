@@ -42,7 +42,7 @@ padding: 0;
 body
 {
 background-image: url("./images/scott-warman-NpNvI4ilT4A-unsplash.jpg");
-background-color: rgb(136, 136, 136,0.25);
+background-color: rgba(108, 108, 108, 0.212);
 background-position:unset;
 background-size:cover;
 background-repeat:no-repeat;

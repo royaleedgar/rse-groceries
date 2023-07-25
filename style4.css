@@ -90,7 +90,7 @@ outline: none ;
 
 .textarea-field
 {
-   height: 150px;
+   height: 50px;
    padding-top: 10px;
 
 }
@@ -145,7 +145,7 @@ outline: none ;
     letter-spacing:none;
 }
 .nav-links2 a:hover{
-    color:darkgrey;
+    color:gold;
     transition:0.04s;
 }
 
