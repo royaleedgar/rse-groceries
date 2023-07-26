@@ -56,7 +56,7 @@ color: aliceblue;
     margin-bottom: 5%;
     text-align:left;
     cursor: pointer;
-    background-color: rgb(136, 136, 136,0.25);
+    background-color: rgba(0, 0, 0, 0.573);
     padding: 10px; ;
 }
 .goods-col img{
